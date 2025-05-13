@@ -4,7 +4,7 @@ import { Bookshelf, Cabinet, Couch3D, Drawer, Lamp, Table, TV } from "./Models";
 import useColor from "./store/useColor";
 
 export default function Experience() {
-  const { scene } = useGLTF("./assets/models/room.glb");
+  const { scene } = useGLTF("/models/room.glb");
 
   const color = useColor((state) => state.color);
   const selectedItem = useColor((state) => state.selectedItem);
