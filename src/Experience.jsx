@@ -42,7 +42,7 @@ export default function Experience() {
             position={[3.3, 0.6, 0]}
             rotation={[0, -0.5, 0]}
           >
-            Room {"\n"}Configurator
+            Room {"\n"}Configurator.
           </Text>
           <RigidBody type="fixed" scale={1.65}>
             <primitive object={scene} />
