@@ -6,7 +6,7 @@ import { useFrame } from "@react-three/fiber";
 
 function Couch3D({color, ...props}) {
 
-    const { scene } = useGLTF("./assets/models/Couch.glb");
+    const { scene } = useGLTF("/models/Couch.glb");
     const selectedItem = useColor((state) => state.selectedItem);
     const body = useRef();
     const [subscribedKeys, getKeys] = useKeyboardControls();
@@ -58,7 +58,7 @@ function Couch3D({color, ...props}) {
 
 function Bookshelf({color, ...props}) {
 
-    const { scene } = useGLTF("./assets/models/Bookshelf.glb");
+    const { scene } = useGLTF("/models/Bookshelf.glb");
     const selectedItem = useColor((state) => state.selectedItem);
     const body = useRef();
     const [subscribedKeys, getKeys] = useKeyboardControls();
@@ -112,7 +112,7 @@ function Bookshelf({color, ...props}) {
 
 function Drawer({color, ...props}) {
 
-    const { scene } = useGLTF("./assets/models/Drawer.glb");
+    const { scene } = useGLTF("/models/Drawer.glb");
     const selectedItem = useColor((state) => state.selectedItem);
     const body = useRef();
     const [subscribedKeys, getKeys] = useKeyboardControls();
@@ -163,7 +163,7 @@ function Drawer({color, ...props}) {
 }
 
 function Lamp({color, ...props}) {
-    const { scene } = useGLTF("./assets/models/Lamp.glb");
+    const { scene } = useGLTF("/models/Lamp.glb");
     const selectedItem = useColor((state) => state.selectedItem);
     const body = useRef();
     const [subscribedKeys, getKeys] = useKeyboardControls();
@@ -214,7 +214,7 @@ function Lamp({color, ...props}) {
 }
 
 function Table({ color, ...props }) {
-    const { scene } = useGLTF("./assets/models/Table.glb");
+    const { scene } = useGLTF("/models/Table.glb");
     const selectedItem = useColor((state) => state.selectedItem);
     const body = useRef();
     const [subscribedKeys, getKeys] = useKeyboardControls();
@@ -265,7 +265,7 @@ function Table({ color, ...props }) {
 }
 
 function Cabinet({color, ...props}) {
-    const { scene } = useGLTF("./assets/models/Cabinet.glb");
+    const { scene } = useGLTF("/models/Cabinet.glb");
     const selectedItem = useColor((state) => state.selectedItem);
     const body = useRef();
     const [subscribedKeys, getKeys] = useKeyboardControls();
@@ -316,7 +316,7 @@ function Cabinet({color, ...props}) {
 }
 
 function TV({color, ...props}) {
-    const { scene } = useGLTF("./assets/models/TV.glb");
+    const { scene } = useGLTF("/models/TV.glb");
     const selectedItem = useColor((state) => state.selectedItem);
     const body = useRef();
     const [subscribedKeys, getKeys] = useKeyboardControls();
