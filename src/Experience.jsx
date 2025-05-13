@@ -37,7 +37,7 @@ export default function Experience() {
       <Physics gravity={[0, -9.8, 0]}>
         <group scale={1.15}>
           <Text
-            font="./assets/fonts/Bangers.ttf"
+            font="/fonts/Bangers.ttf"
             fontSize={0.35}
             position={[3.3, 0.6, 0]}
             rotation={[0, -0.5, 0]}
